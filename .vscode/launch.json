@@ -2,13 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug",
+            "name": "Launch",
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "remotePath": "",
-            "port": 2345,
-            "host": "192.168.0.187",
+            "externalConsole": true,
             "program": "${workspaceRoot}",
             "env": {},
             "args": []

@@ -77,6 +77,7 @@ func main() {
 
 		contentType := fmt.Sprintf("multipart/x-mixed-replace;boundary=%s", mimeWriter.Boundary())
 		w.Header().Add("Content-Type", contentType)
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 
 		for {
 			//frameStartTime := time.Now()
